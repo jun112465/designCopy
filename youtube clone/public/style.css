@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+    *{
+        margin:0px; padding:0px
+    }
+
+    header {
+        border-bottom: 1px black solid;
+        height: 70px;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 3;
+    }
+    header > img {
+        width: 30px;
+        height: 60px;
+    }
+    header > .right{
+        float: right;
+        margin: 7px;
+    }
+    header > span{
+        font-size: 30px;
+        position: relative;
+        top: -15px;
+    }
+
+    main > video {
+        width: 100%;
+    }
+    section#info {
+        border-bottom: 1px solid rgb(167, 164, 164);
+    }
+    section#info > #title {
+        text-align: center;
+        font-size: 33px;   
+        margin: 4px; 
+    }
+    section#info > #additional > div{
+        display: inline-block;
+        width: 24%;
+        text-align: center;
+    }
+    section#info > #additional img {
+        width:40px;
+    }
+    section#vids{
+        margin-top:5px;
+        width: 100%;
+    }
+    section#vids > div >video{
+        width: 40%;
+    }
+    section#vids > div {
+        position: relative;
+    }
+    section#vids > div > div{
+        display: inline-block;
+        position: absolute;
+    }
+    section#vids > div > .title {
+        top: 30px;   
+    }
+    section#vids > div > .views{
+        top: 80%;
+        left: 80%;
+    }
+}
